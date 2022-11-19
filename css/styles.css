@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(100, 99, 99);
+}
+.main {
+    margin: auto;
+    max-width: 1200px;
+  }
+  .titre{
+    top:0px;
+    position: fixed;
+    width: calc(min(100%, 1200px));
+    background-color: rgb(55, 148, 211);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: Mukta;
+    border: 8px solid rgb(25, 44, 129);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .headerbuffer{
+    height: 115px;
+  }
+  .boxcontainer{
+    display:felx;
+    flex-direction: column;
+  }
+  .box{
+    background-color: rgb(55, 148, 211);
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 8px solid rgb(25, 44, 129);
+    border-radius: 5px;
+    flex: 1;
+    padding: 5px;
+  }
+  .largebox{
+    flex:2 !important;
+  }
+  @media screen and (min-width: 800px) {
+    .boxcontainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .photo{
+      max-width: 330px;
+    }
+}
