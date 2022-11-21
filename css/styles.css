@@ -46,7 +46,7 @@ body{
       flex-wrap: wrap;
       gap: 20px;
     }
-    .photo{
-      max-width: 330px;
-    }
 }
+ .box img{
+     width: 100%;
+    }
